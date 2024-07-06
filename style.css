@@ -206,6 +206,13 @@ a {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.box:hover {
+  background-color: #D2D4C8;
+}
+
+.box1:hover {
+  background-color: #D2D4C8;
+}
 
 h2 {
   font-weight: 700;
