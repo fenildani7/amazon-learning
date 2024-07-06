@@ -250,3 +250,94 @@ img {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.sign-in-panel {
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+}
+
+.sign-in-tooltip {
+  display: inline;
+}
+
+.sign-in-button {
+  width: 220px;
+  background: hsla(33, 100%, 53%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.panel1 {
+  height: 50px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+.panel1 a {
+  color: white;
+}
+
+.panel2 {
+  height: 300px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+ul p {
+  font-weight: 700;
+  font-size: 1rem;
+}
+ul a {
+  display: block;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.85rem;
+}
+
+ul a:hover{
+text-decoration: underline;}
+.panel3 {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.panel3 a {
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+
