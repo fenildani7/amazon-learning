@@ -1,3 +1,102 @@
+/* Existing CSS remains unchanged */
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .lang, .sign-in, .cart {
+    margin-top: 10px;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .panel-link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .panel-link a {
+    margin: 5px 0;
+  }
+
+  .hero-section {
+    height: 300px;
+    margin-bottom: -150px;
+  }
+
+  .hero {
+    width: 95%;
+    margin-bottom: 160px;
+  }
+
+  .shop-section {
+    height: auto;
+  }
+
+  .box, .box1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img4 {
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .panel2 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .panel2 ul {
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for screens between 768px and 1024px (tablets and smaller laptops) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-search {
+    width: 400px;
+  }
+
+  .shop-section {
+    height: auto;
+  }
+
+  .box, .box1 {
+    width: 45%;
+  }
+}
+
 * {
   margin: 0;
   font-family: Arial;
