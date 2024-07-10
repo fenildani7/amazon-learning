@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   font-family: Arial;
@@ -6,6 +8,8 @@
 
 .navbar {
   height: 50px;
+  width: 100vw;
+  overflow: hidden;
   background-color: #0f1111;
   color: white;
   padding: 5px;
@@ -341,3 +345,70 @@ text-decoration: underline;}
 }
 
 
+@media (max-width:430px) {
+  .navbar{
+    width: 100vw;
+    height: 40px;
+      }
+  .logo{
+    height: 30px;
+    width: 30px;
+  }
+  .nav-logo{
+    height: 30px;
+    width: 40px;
+  }
+
+  .nav-deliver .Deliver{
+    font-size: 0.5rem;
+  }
+  .nav-location {
+    font-size: 0.5rem;
+    margin-left: 0px;
+  }
+  .India{
+    font-size: 0.5rem;
+  }
+  .nav-search{
+    width: 300px;
+
+  }
+  .category{
+    width: 25px;
+    font-size: 0.5rem;
+  }
+  .searchbar{
+    font-size: 0.75rem;
+  }
+  .search-icon{
+    width: 15px;
+    font-size: 0.5rem;
+  }
+  .flag{
+    height: 10px;
+    width: 15px;
+
+  }
+.language{
+  width: 20px;
+}
+
+.sign-in{
+  width: 25px;
+  margin-left: 0px;
+}
+.sign{
+  font-size: 0.5rem;
+}
+.account{
+  font-size: 0.5rem;
+}
+.cart-icon{
+  font-size: 14px;
+}
+.cart-font{
+  font-size: 10px;
+  margin-top: 0px;
+
+}
+}
