@@ -753,3 +753,67 @@ text-decoration: underline;}
 }
 
 
+@media screen and (max-width:430px){
+  .navbar{
+    width: fit-content;
+    height: 30px;
+    padding: 5px;
+  }
+  .logo{
+    width: 30px;
+    height: 20px;
+  }
+  .nav-logo{
+    width: 30px;
+    height: 20px;
+  }
+  .nav-add{
+    width:45px ;
+  }
+  .Deliver{
+    font-size: o.5rem;
+  }
+  .nav-location{
+    font-size: 0.5rem;
+  }
+  .India{
+    font-size: 0.65rem;
+  }
+  .nav-search{
+    width: 250px;
+    height: 25px;
+  }
+  .category{
+    width: 20px;
+  }
+  .search-icon{
+    font-size: 0.5rem;
+    width: 20px;
+  }
+  .flag{
+    width: 15px;
+    height: 10px;
+  }
+  .language{
+    width: 15px;
+    height: 10px;
+    font-size: 0.65rem;
+  }
+  .sign-in{
+    width: 40px;
+    margin-left: 0px;
+  }
+  .sign{
+    font-size: 0.5rem;
+  }
+  .account{
+    font-size: 0.5rem;
+  }
+  .cart-icon{
+    font-size: 0.75rem;
+  }
+  .cart-font{
+    font-size: 0.75rem;
+    margin-top: 0px;
+  }
+}
